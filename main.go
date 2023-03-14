@@ -12,6 +12,8 @@ type student struct {
 }
 
 func main() {
+	fmt.Println("hello java")
+
 	defer func() {
 		fmt.Println("recover: ", recover())
 	}()
